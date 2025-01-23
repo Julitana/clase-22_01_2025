@@ -1,5 +1,16 @@
 console.log("Funcionando")
 
+// Zona de declaracion de Variables Globales
+let color1 = "black"
+let color2 = "white"
+
+
+//Zona para llamar funciones 
+ModoOscuro(color1,color2) //funcion se ejecuta al levantar la pagina
+
+
+//Zona de funciones 
+
 function Saludar() {
     alert("Este es un saludo desde Js")
 }
