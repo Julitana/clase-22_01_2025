@@ -39,3 +39,15 @@ function ModoClaro(valor1,valor2) {
     document.body.style.backgroundColor = valor1;
     document.body.style.color =valor2;
 }
+
+function SumardosNumeros(numero1,numero2) {
+    let resultado = numero1 + numero2
+    alert(resultado)
+
+}
+
+function MultiplicarNumeros(numero1,numero2) {
+    let resultado = numero1 * numero2
+    alert(resultado)
+
+}
